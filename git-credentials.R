@@ -10,6 +10,7 @@ use_git_config(user.name = "NessBurton", user.email = "vanessa.burton26@gmail.co
 library(gitcreds)
 
 # Generate a PAT from Github - https://happygitwithr.com/https-pat
+usethis::create_github_token()
 
 # run this
 gitcreds::gitcreds_set()
